@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-image: url(images/crossfitlx-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 22px;
+}
+
+input {
+    border: 0;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 3px rgba(255, 0, 0, 0.5);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+}
